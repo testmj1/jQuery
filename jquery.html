@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#hide').click(function(){
+                $('div').hide();
+            })
+      $('#show').click(function(){
+          $('div').show();
+      })
+
+
+        })
+    </script>
     <title>Document</title>
     <style>
         #blue{
-            display: none;
+            display:block;
             height: 100px;
             width: 300px;
             background-color: blue;
@@ -15,6 +28,8 @@
     </style>
 </head>
 <body>
+    <button id="hide"> hide</button>
+    <button id="show"> show</button>
     <div id="blue">
 
     </div>
