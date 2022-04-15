@@ -28,5 +28,9 @@ $('#downB').click(function(){
 $("#slideUp").click(function(){
     $('#slideDown').slideUp();
 })
-
+// create togle togle mixup slideUp and slideDown
+$("#togle").click(function(){
+    $("#flip").toggle();
+    
+})
 });
