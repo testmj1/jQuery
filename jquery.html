@@ -8,10 +8,20 @@
     <script>
         $(document).ready(function(){
             $('#hide').click(function(){
-                $('div').hide();
+                $('#blue').hide();
             })
       $('#show').click(function(){
-          $('div').show();
+          $('#blue').show();
+      })
+      $('#fadeIn').click(function(){
+          $('#fade1').fadeIn();
+          $('#fade2').fadeIn(200);
+          $('#fade3').fadeIn(300);
+      })
+      $('#fadeOut').click(function(){
+          $('#fade1').fadeOut();
+          $('#fade2').fadeOut(200);
+          $('#fade3').fadeOut(300);
       })
 
 
@@ -34,5 +44,13 @@
 
     </div>
     
+</hr>
+<button id="fadeIn">fade in</button>
+<button id="fadeOut">fade out</button>
+<div id="fade1" style="background-color: red; width: 100px; height: 100px; display: none;">
+ 
+</div>
+<div id="fade2" style="background-color: blue; width: 100px; height: 100px; display: none;"></div>
+<div id="fade3" style="height: 100px; width: 100px; background-color: chartreuse;display: none;"></div>
 </body>
 </html>
