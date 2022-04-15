@@ -32,5 +32,14 @@ $("#slideUp").click(function(){
 $("#togle").click(function(){
     $("#flip").toggle();
     
-})
+});
+// animation 
+$("#animation").click(function(){
+    $('#animeted').animate({left: '250px'
+    //height:'200px',
+    //height:'toggle'
+    
+    
+     }).css("color","red");
+});
 });
