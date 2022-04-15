@@ -21,6 +21,12 @@ $('#fadeOut').click(function(){
 });
 
 // in this function will be slide show
-
+$('#downB').click(function(){
+    $("#slideDown").slideDown();
+})
+// in this function wil be slide Up
+$("#slideUp").click(function(){
+    $('#slideDown').slideUp();
+})
 
 });
