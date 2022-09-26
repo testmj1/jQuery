@@ -1,4 +1,7 @@
 //this fuction is hide the element 
+function hello(){
+    consloe.log('hello world');
+}
 $(document).ready(function(){
     $('#hide').click(function(){
         $('#blue').hide();
