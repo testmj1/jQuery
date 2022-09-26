@@ -1,5 +1,5 @@
 //this fuction is hide the element 
-export function hello(){
+ function hello(){
     consloe.log('hello world');
 }
 $(document).ready(function(){
